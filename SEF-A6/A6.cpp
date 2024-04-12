@@ -15,7 +15,7 @@ int main(void) {
     int randomNumber = 0;
     int guess = 0;
     int numberOfGuesses = 0;
-    int lowerBound = 1, upperBound = 99;
+    int lowerBound = 1, upperBound = 999;
 
     srand(time(NULL));
     randomNumber = lowerBound + rand() % (upperBound - lowerBound + 1);
