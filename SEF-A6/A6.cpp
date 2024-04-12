@@ -17,7 +17,7 @@ int main(void) {
 
     do {
         printf("Enter your guess: ");
-        scanf("%d", &guess);
+        scanf_s("%d", &guess);
         numberOfGuesses++;
 
         if (guess > randomNumber) {
