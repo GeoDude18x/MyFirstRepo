@@ -1,3 +1,11 @@
+/*
+FILE : A6.cpp
+PROJECT : PROG1345 - Assignment 6
+PROGRAMMER : George Dall
+FIRST VERSION : 2024-04-11
+DESCRIPTION :
+Guess a number game
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,7 +15,7 @@ int main(void) {
     int randomNumber = 0;
     int guess = 0;
     int numberOfGuesses = 0;
-    int lowerBound = 1, upperBound = 100;
+    int lowerBound = 1, upperBound = 99;
 
     srand(time(NULL));
     randomNumber = lowerBound + rand() % (upperBound - lowerBound + 1);
